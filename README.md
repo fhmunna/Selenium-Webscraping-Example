@@ -8,3 +8,5 @@ We will leverage these Resources
 * [Selenium](https://pypi.python.org/pypi/selenium)
 * [ChromeDriver - WebDriver for Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 * [Selenium-Python ReadTheDocs](http://selenium-python.readthedocs.io/)
+
+https://medium.com/the-andela-way/introduction-to-web-scraping-using-selenium-7ec377a8cf72

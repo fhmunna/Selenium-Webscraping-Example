@@ -9,10 +9,11 @@ option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 
 # Create new Instance of Chrome in incognito mode
-browser = webdriver.Chrome(executable_path='/Library/Application Support/Google/chromedriver', chrome_options=option)
+# browser = webdriver.Chrome(executable_path='/Library/Application Support/Google/chromedriver', chrome_options=option)
+browser = webdriver.Chrome(r"E:/python/Selenium-Webscraping-Example/chromedriver.exe", chrome_options=option)
 
 # Go to desired website
-browser.get("https://github.com/TheDancerCodes")
+browser.get("https://github.com/fhmunna")
 
 # Wait 20 seconds for page to load
 timeout = 20
